@@ -23,7 +23,10 @@ export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 echo -e "\n[3/4] Installing Gemini CLI & Action Layer Dependencies..."
 npm install -g @google/gemini-cli
 
-echo -e "\n[4/4] Installation Complete!"
+echo -e "\n[4/5] Opening Antigravity IDE plugin page in your browser..."
+open "https://antigravity.google/"
+
+echo -e "\n[5/5] Installation Complete!"
 echo "================================================="
 
 echo -e "\nExecuting The Awakening Sequence..."
