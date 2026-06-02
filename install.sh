@@ -26,6 +26,9 @@ npm install -g @google/gemini-cli
 echo -e "\n[4/5] Opening Antigravity IDE plugin page in your browser..."
 open "https://antigravity.google/"
 
+echo -e "\n[4.5/5] Installing Python Package Dependencies..."
+pip3 install websockets cryptography
+
 echo -e "\n[5/5] Installation Complete!"
 echo "================================================="
 
